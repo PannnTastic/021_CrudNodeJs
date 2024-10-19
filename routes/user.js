@@ -11,12 +11,25 @@ const user =
 
     },
     {
-        merk : 'Zaky',
-        umur : "19",
+        nama : 'Zaky',
+        umur : 19,
         asal : "Bengkulu",
         angkatan : 2023
 
-    },];
+    },
+    {
+        nama : "Gibran",
+        umur : 19,
+        asal : "NTB",
+        angkatan : 2023
+    },
+    {
+        nama : "Hanif",
+        umur : 21,
+        asal : "Bekasi",
+        angkatan : 2022
+    },
+];
 
 router.get("/", (req,res) => {
     res.send(user)
